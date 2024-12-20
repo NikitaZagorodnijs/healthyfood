@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A blog dedicated to promoting a healthy lifestyle and nutritious food.">
+    <meta name="keywords" content="Healthy food, Nutrition, Lifestyle, Fitness, Blog">
+    <meta name="author" content="Healthy Blog">
+    <title>Healthy Food Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="hero-section">
+        <h1>Welcome to Healthy Life Blog</h1>
+        <p>Your guide to living a healthier, happier life!</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#benefits">Benefits of Healthy Food</a>
+        <a href="#recipes">Healthy Recipes</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="content-section">
+        <h2>About Us</h2>
+        <p>
+            At Healthy Life Blog, we believe in the transformative power of healthy eating and balanced living. Our blog is dedicated to helping people make informed choices about their diets, physical activities, and mental well-being.
+        </p>
+       <br> <p>Eating healthy food offers numerous benefits for both the body and mind. A balanced diet, rich in fruits, vegetables, whole grains, and lean proteins, can improve overall health, boost energy levels, and strengthen the immune system. Healthy eating helps maintain a healthy weight, reduces the risk of chronic diseases such as heart disease, diabetes, and certain cancers, and promotes better digestion. It also supports mental health by improving mood, focus, and cognitive function. Additionally, healthy foods provide essential nutrients like vitamins, minerals, and antioxidants, which are crucial for the body’s optimal functioning and long-term well-being. By choosing nourishing foods, you can enhance your quality of life and increase longevity.</p>
+    </section>
+
+    <!-- Recipes Section -->
+    <section id="recipes" class="content-section">
+        <h2>Healthy Recipes</h2>
+        <div class="recipes-grid">
+            <!-- Recipe Cards Will Be Injected Here Dynamically -->
+        </div>
+    </section>
+
+    <!-- Modal Structure -->
+    <div id="recipe-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="recipe-title"></h2>
+            <img id="recipe-image" src="" alt="Recipe Image">
+            <h3>Ingredients:</h3>
+            <ul id="recipe-ingredients"></ul>
+            <p id="recipe-time"></p>
+            <h3>Steps:</h3>
+            <ul id="recipe-steps"></ul>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
